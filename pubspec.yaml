@@ -30,7 +30,7 @@ dependencies:
   flutter_map:
     git:
       url: https://github.com/sikandernoori/flutter_map-4.0.0.git
-      ref: 033e6ee79f8b73ba7da2d24e0aa5f8ff8dda1d3a
+      ref: 03f6589a6d88c711c0d569aa19b5fb27576226fc
   http: ^0.13.5
   http_plus: ^0.2.2
   isar: ^3.1.0+1
