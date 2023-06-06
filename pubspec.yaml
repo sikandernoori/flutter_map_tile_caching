@@ -6,6 +6,8 @@ repository: https://github.com/JaffaKetchup/flutter_map_tile_caching
 issue_tracker: https://github.com/JaffaKetchup/flutter_map_tile_caching/issues
 documentation: https://fmtc.jaffaketchup.dev
 
+publish_to: "none"
+
 funding:
   - https://github.com/sponsors/JaffaKetchup
 
@@ -25,7 +27,10 @@ dependencies:
   collection: ^1.16.0
   flutter:
     sdk: flutter
-  flutter_map: ^4.0.0
+  flutter_map:
+    git:
+      url: https://github.com/sikandernoori/flutter_map-4.0.0.git
+      ref: 033e6ee79f8b73ba7da2d24e0aa5f8ff8dda1d3a
   http: ^0.13.5
   http_plus: ^0.2.2
   isar: ^3.1.0+1
